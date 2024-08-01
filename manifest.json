@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Microsoft Docs Locale Switcher",
+    "version": "1.0",
+    "description": "Switch between ja-jp and en-us locales for Microsoft documentation with a single click.",
+    "permissions": [
+        "activeTab"
+    ],
+    "action": {
+        "default_popup": "",
+        "default_icon": {
+            "16": "icon16.png",
+            "48": "icon48.png",
+            "128": "icon128.png"
+        }
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
