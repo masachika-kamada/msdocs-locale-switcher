@@ -1,0 +1,8 @@
+{
+    "appName": {
+        "message": "Microsoft Docs Locale Switcher"
+    },
+    "appDesc": {
+        "message": "Switch between ja-jp and en-us locales for Microsoft documentation with a single click."
+    }
+}

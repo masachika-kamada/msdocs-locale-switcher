@@ -1,17 +1,21 @@
 {
     "manifest_version": 3,
-    "name": "Microsoft Docs Locale Switcher",
+    "name": "__MSG_appName__",
     "version": "1.0",
-    "description": "Switch between ja-jp and en-us locales for Microsoft documentation with a single click.",
-    "permissions": [
-        "activeTab"
-    ],
+    "description": "__MSG_appDesc__",
+    "default_locale": "en",
+    "author": "Kamada Masachika",
+    "icons": {
+        "16": "icon/icon16.png",
+        "48": "icon/icon48.png",
+        "128": "icon/icon128.png"
+    },
     "action": {
         "default_popup": "",
         "default_icon": {
-            "16": "icon16.png",
-            "48": "icon48.png",
-            "128": "icon128.png"
+            "16": "icon/icon16.png",
+            "48": "icon/icon48.png",
+            "128": "icon/icon128.png"
         }
     },
     "background": {
