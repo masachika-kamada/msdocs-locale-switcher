@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "__MSG_appName__",
-    "version": "1.0",
+    "version": "1.0.1",
     "description": "__MSG_appDesc__",
     "default_locale": "en",
     "author": "Kamada Masachika",
@@ -10,6 +10,9 @@
         "48": "icon/icon48.png",
         "128": "icon/icon128.png"
     },
+    "permissions": [
+        "activeTab"
+    ],
     "action": {
         "default_popup": "",
         "default_icon": {

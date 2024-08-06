@@ -10,13 +10,12 @@ Microsoft Docs Locale Switcher is a simple Chrome extension that allows you to s
 
 ## Installation
 
-1. Clone this repository or download the ZIP file.
-2. Open Chrome and navigate to `chrome://extensions/`.
-3. Enable "Developer mode" by toggling the switch in the top right corner.
-4. Click "Load unpacked" and select the directory containing the extension files.
+1. Install from [here](https://chromewebstore.google.com/detail/microsoft-docs-locale-swi/bdlfmipdlfjaecgakeffhgglpmmbicfp).
 
 ## Usage
 
 1. Navigate to a Microsoft documentation page in Japanese or English.
 2. Click the extension icon in the Chrome toolbar.
 3. The page will reload with the locale switched between `ja-jp` and `en-us`.
+
+![ja-jp](imgs/ja-jp.jpg) ![en-us](imgs/en-us.jpg)
